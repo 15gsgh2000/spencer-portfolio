@@ -1,0 +1,46 @@
+
+body {
+    background-color: #fdf5e6; 
+    color: #2c3e50; 
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#nav-box {
+    background-color: #8b0000; 
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+#nav-box a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#nav-box a:hover {
+    text-decoration: underline;
+}
+
+#content-box {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 80px; /* Pushes the box down so the fixed header doesn't cover it */
+    background-color: white;
+    padding: 40px;
+    border: 2px solid #bdc3c7; /* Standard border taught in Box Model */
+}
+
+#footer-box {
+    text-align: center;
+    padding: 20px;
+    background-color: #2c3e50;
+    color: white;
+    margin-top: 50px;
+}
